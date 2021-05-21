@@ -1,0 +1,48 @@
+body {
+    align-items: center;
+    background-image: linear-gradient(200deg, #74EBD5, #ACB6E3);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculadora {
+    border-radius: 12px;
+    box-shadow: 0 0 40px 0px rgb(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 2em;
+    max-width: 15em;
+}
+
+.calculadora__display {
+    background-color: #222222;
+    color: white;
+    font-size: 2em;
+    padding: 0.7em;
+}
+
+.calculadora__botones {
+    background-color: #999;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.3em;
+    padding: 0.7em;
+}
+
+.calculadora__botones button {
+    border-radius: 5px;
+    border-collapse: collapse;
+    outline:none;
+}
+
+.tecla--operador {
+    background-color: lightblue;
+}
+
+.tecla--igual {
+    background-color: orange;
+}
+
